@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+        %('selector').$.ajax({
+        	url: '/path/to/file',
+        	type: 'default GET (Other values: POST)',
+        	dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+        	data: {param1: 'value1'},
+        })
+        .done(function() {
+        	console.log("success");
+        })
+        .fail(function() {
+        	console.log("error");
+        })
+        .always(function() {
+        	console.log("complete");
+        });
+        
+    });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+</body>
+</html>
