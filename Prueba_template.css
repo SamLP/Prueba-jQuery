@@ -1,0 +1,48 @@
+/* BODY */
+body{
+
+	background-color: gold;
+	margin          : 0%;
+	font-family: 'Lato', sans-serif;	
+}
+
+/* CONTAINER */
+div.container{
+	
+	margin          : 2%;
+	background-color: pink;
+	text-align      : center;
+	font-size       : 4vmin; /*Responsive*/
+}
+
+/* HEADER Y FOOTER */
+header, footer{
+
+	background-color: lightsalmon;
+	padding         : 2%;
+	margin          : 1%;
+}
+
+/* ELEMENTO CENTRAL */
+div.pricipal{
+	
+	margin          : 4%;
+	padding         : 2%;
+	background-color: lightcyan;
+}
+
+div.nombre{
+	
+	margin          : 4%;
+	padding         : 2%;
+	background-color: lavender;
+}
+
+div.elemento{
+	
+	margin          : 4%;
+	padding         : 2%;
+	background-color: wheat;
+	border          : solid;
+	font-size       : 3vmin; /*Responsive*/
+}
