@@ -1,0 +1,195 @@
+/* BODY */
+
+body {
+
+    background-color: gold;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* CONTAINER */
+
+div.container {
+
+    margin: 2%;
+    background-color: pink;
+    text-align: center;
+    font-size: 4vmin;
+    /*Responsive*/
+}
+
+
+
+/* HEADER Y FOOTER */
+
+header,
+footer {
+
+    background-color: lightsalmon;
+    padding: 2%;
+    margin: 1%;
+}
+
+
+
+/* ELEMENTO CENTRAL */
+
+div.pricipal {
+
+    margin: 4%;
+    padding: 2%;
+    background-color: lightcyan;
+    /* Usar URI para aumentar la rapidez del codigo */
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAA/SURBVBhXY/z+/ft/Bih48eIFlMXAICEhwcAEZWNIgABYEpsECDDhkgABuLHoEiBNYElsEiCA4loQQFjDwAAA0FwcjVPnRscAAAAASUVORK5CYII=);
+}
+
+div.nombre {
+
+    margin: 1%;
+    padding: 1.5%;
+    background-color: lavender;
+}
+
+div.elemento {
+
+    margin: 1%;
+    font-size: 0.9rem;
+    /*Responsive*/
+    overflow-x: auto;
+    /* Tabla responsive */
+}
+
+
+
+/* TABLA */
+
+table {
+    border: 2px solid #B3B6B7;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+    background-color: #FDFEFE;
+    /* border-radius   : 5px; */
+    color: #5F6A6A;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.24);
+}
+th,
+td {
+
+    padding: 11px;
+    padding-left: 20px;
+}
+
+td {
+    border-top: 2px solid gainsboro;
+}
+
+th {
+    border-bottom: 1px solid gainsboro;
+    color: #757575;
+    font-weight: bold;
+}
+
+th.ppal {
+
+    color: white;
+    font-weight: bold;
+    background-color: #B3B6B7;
+    font-size: 1.3rem;
+    border-bottom: none;
+}
+
+
+.edit,
+.delete,
+.info {
+
+    color: gainsboro;
+    cursor: pointer;
+}
+
+.edit:hover {
+
+    color: skyblue;
+}
+
+.delete:hover {
+
+    color: #E74C3C;
+}
+.info:hover {
+    color: yellowgreen;
+}
+
+.after-table {
+    text-align: left;
+    margin: 1%;
+}
+
+button {
+
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.1rem;
+    background-color: #FDFEFE;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+.anadir {
+
+    border: 2px solid #007BFF;
+    color: #007BFF;
+}
+
+.anadir:hover {
+
+    color: #FDFEFE;
+    background-color: #007BFF;
+
+}
+
+.borrar {
+
+    border: 2px solid #E74C3C;
+    color: #E74C3C;
+}
+
+.borrar:hover {
+
+    color: #FDFEFE;
+    background-color: #E74C3C;
+
+}
+
+.validar {
+
+    border: 2px solid seagreen;
+    color: seagreen;    
+}
+
+.validar:hover {
+
+    color: #FDFEFE;
+    background-color: seagreen;
+
+}
+.undo {
+
+    border: 2px solid #e7a23c;
+    color: #e7a23c;    
+}
+
+.undo:hover {
+
+    color: #FDFEFE;
+    background-color: #e7a23c;
+
+}

@@ -8,19 +8,30 @@
     <link rel="stylesheet" href="Prueba_template.css">
     <!-- Font LATO  -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="container">
         <header id="header">
-            Cabecera
+            <div class="nav-bar">
+                NAV_BAR
+                <script>
+                $(document).ready(function() {
+
+                    let div_OK = $('result').load('Cabecera.html');
+
+                });
+                </script>
+            </div>
         </header>
         <div class="pricipal">
-        	<div class="nombre">
-        	Elemento
-        </div>
+            <div class="nombre">
+                Elemento
+            </div>
             <div class="elemento">
-            	prueba
+                prueba
             </div>
         </div>
         <footer>

@@ -1,0 +1,126 @@
+body {
+
+	background-color: #4E91C8;
+	font-family     : 'Lato';
+	margin          : 0px;
+
+}
+
+header {
+
+	background-color: #E9F1F8;
+	width     : 100%;
+	height    : 20%;
+	text-align: center;
+	font-size : 1.3em;
+	color     : #FDFDFE;
+}
+.logo_box{
+
+	display: inline-block;
+}
+
+.img-responsive{
+	width: 550px;
+}
+
+.container{
+
+	box-shadow: 	inset 0em 13.1em 0.5em -1em;
+	text-align: center;
+}
+
+.flogin {
+
+	margin          : 4%;
+	padding         : 4%;
+	border          : 1px solid #295C86;
+	border-radius   : 5px;
+	padding         : 20px;
+	background-color: #f4f4f4;
+	box-shadow      : 0px 1px 15px 0px rgba(0, 0, 0, 0.24);
+	display         : inline-block;
+	width           : 400px;
+}
+
+p.left {
+
+	position: relative;
+	top: -7px;
+}
+
+input{
+	font-family     : 'Lato';
+}
+
+input.t_user,input.t_passw{
+	
+	
+	background: #e5e5e5;
+	padding: 12px 70px 12px 10px;
+	border: none;
+	border-radius: 5px;
+	color: #5a5656;
+
+}
+
+input.t_user:hover,input.t_passw:hover{
+	background: white;
+}
+
+input.t_user:focus,input.t_passw:focus{
+	outline: none;
+}
+
+input.b_login{
+	
+	
+	background: #e5e5e5;
+	padding: 12px 76px 12px 76px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+	font-size: 1rem;
+    background-color: #FDFEFE;
+    transition-duration: 0.3s;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.24);	
+    border: 2px solid #295C86;
+    color: #295C86;
+    text-align: center;
+}
+
+input.b_login:hover {
+
+    color: #FDFEFE;
+    background-color: #295C86;
+
+}
+
+p.right{
+	font-size: 0.7rem;
+	position: relative;
+	top: 6px;
+	left: 52px;
+}
+
+a.forgot{
+	text-decoration: none;
+	color: grey;
+}
+
+a.forgot:hover{
+	text-decoration: underline;
+}
+
+footer{
+
+	background-color: #295C86;
+	position: absolute;
+	text-align: right;
+
+	width : 100%;
+	bottom: 0%;
+	
+}
